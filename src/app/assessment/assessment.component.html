@@ -1,0 +1,15 @@
+<form #userRef = "ngForm">
+    <div class = "card"  *ngFor = "let q of questions">
+        {{q.question}}
+        <div *ngFor = "let opt of q.options">
+            <input type = "radio" id = {{opt}} name= {{q.question}} value ="{{opt}}" ngModel required> {{opt}}
+        </div>
+    </div>
+    <input type ="submit" value = "Submit" (click) = "reroute()" [disabled] = "!userRef.valid"/>
+</form>
+    
+
+
+
+
+

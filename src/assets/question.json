@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the color of grass?",
+        "options": ["Blue", "Green", "Yellow", "Red"],
+        "correctAns": "Green"
+    },
+    {
+        "question": "What is the color of sky?",
+        "options": ["Blue", "Green", "Yellow", "Red"],
+        "correctAns": "Blue"
+    },
+    {
+        "question": "What is Jacob's favorite color?",
+        "options": ["Purple", "Green", "Yellow", "Red"],
+        "correctAns": "Purple"
+    },
+    {
+        "question": "What is the greatest tv-show?",
+        "options": ["The Office", "Game of Thrones", "WandaVision", "Stranger Things"],
+        "correctAns": "WandaVision"
+    }
+]
